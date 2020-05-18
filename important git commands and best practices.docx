@@ -1,0 +1,37 @@
+    • Commits
+        ? git commit
+            ? makes a new commit
+        ? git commit –amend
+            ? updates or edits the last commit
+    • Branching
+        ? git branch <branchname>
+            ? creates a new branch
+        ? git checkout <branchname>
+            ? checks out an existing branch
+        ? git checkout -b <branchname>
+            ? creats a new branch and cheks it out
+    • Merging
+        ? git checkout bugFix; git merge master;
+            ? checks out bugFix branch adn merges all changes of master branch into bugFix branch
+        ? git commit –amend
+              updates or edits the last commit
+    • rebase :- helps to have a linear sequence of commits, instead of parallel ones
+        ? git checkout -b bugFix; git commit; git checkout master; git commit; git checkout bugFix; git rebase master;
+            ? combines the parallel branches commits to linear line and rebases master into bugFix branch 
+            ? master ? bugFix(*)
+              
+    • Detach yo HEAD
+        ? git commit
+            ? makes a new commit
+        ? git commit –amend
+              updates or edits the last commit
+    • Commits
+        ? git commit
+            ? makes a new commit
+        ? git commit –amend
+              updates or edits the last commit
+    • Commits
+        ? git commit
+            ? makes a new commit
+        ? git commit –amend
+              updates or edits the last commit
