@@ -1,0 +1,21 @@
+1. Install nodeJS (globally in ur pc)
+	- before installing nodeJS check first if it is already installed in ur pc 
+		- in CMD ? node -v
+		- if installed then u will receive the version number
+	- Otherwise install nodeJS
+		- Go to https://nodejs.org/en/download/  & install nodejs (default)
+
+2. Install Angular Cli (globally in ur pc)
+	- in CMD ? npm install -g @angular/cli
+3. Create Project
+	- Create your AngularJS workspace
+	- in your workspace, create angularJS project using CMD or GitBash
+		- ng new <project-name> 
+			- angularJS project will be created using this folder name
+	- Open a browser with ur local host
+		- gitBash/CMD in ur project folder and 
+		     - ng serve --open
+				- will open a browser with ur localhost home page (if 			        not opened go to the next line)
+		     - if not opended, open any browser and
+				- http://localhost:4200/
+		      
